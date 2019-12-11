@@ -1,7 +1,6 @@
 const container = document.querySelector(".scroller");
 const scenes = document.querySelectorAll(".scene");
 const images = document.querySelectorAll(".photo");
-console.log(images);
 
 const scroller = new window.Scroller({
   container: container,
